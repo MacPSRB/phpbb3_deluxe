@@ -345,6 +345,7 @@ body.simple #page-body > h2.solo {
 }
 
 .nav-extra {
+    z-index: 2;
     clear: right;
     float: right;
     position: relative;
