@@ -233,6 +233,10 @@ dd.redirect {
 	line-height: 2.5em;
 }
 
+dd.redirect.empty {
+    display: none;
+}
+
 dd.moderation {
 	font-size: 11px;
 }
