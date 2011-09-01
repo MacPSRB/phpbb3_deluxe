@@ -54,6 +54,7 @@ select {
 	cursor: pointer;
 	vertical-align: middle;
 	padding: 1px;
+	max-width: 400px;
 }
 
 option {

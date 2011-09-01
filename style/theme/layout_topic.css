@@ -22,6 +22,7 @@
 	width: 76%;
 	float: left;
 	clear: both;
+	word-wrap: break-word;
 }
 
 .postbody .ignore {
@@ -234,6 +235,7 @@ dd .signature {
 	width: 22%;
 	float: right;
 	display: inline;
+	word-wrap: break-word;
 }
 .pm .postprofile {
 	border-left: 1px solid #ccc;
@@ -444,6 +446,7 @@ dl.codebox code {
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	clear: left;
+	max-width: 98%;
 }
 
 .attachbox dt {

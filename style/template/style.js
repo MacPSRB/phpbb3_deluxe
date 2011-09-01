@@ -23,7 +23,7 @@ $(document).ready(function() {
     // transformations
     if(!oldIE)
     {
-        setTimeout("$('body').addClass('transform');", 2000);
+        setTimeout("$('body').addClass('transform');", 500);
         $(window).load(function() { $('body').addClass('transform'); });
     }
 
