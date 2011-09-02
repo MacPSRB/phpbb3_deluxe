@@ -45,15 +45,16 @@ ul.topiclist li.header {
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    color: #fff;
     color: rgba(255, 255, 255, 0.9);
     text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
     font-family: 'Droid Sans', Verdana;
 }
 ul.topiclist li.header a, ul.topiclist li.header a:visited { 
-    color: #fff;
     color: rgba(255, 255, 255, 0.9);
     text-decoration: underline;
+}
+.old-ie ul.topiclist li.header, .old-ie ul.topiclist li.header a, .old-ie ul.topiclist li.header a:visited {
+    color: #fff;
 }
 ul.topiclist li.header a:hover, ul.topiclist li.header a:active {
     color: #fff;
@@ -61,9 +62,6 @@ ul.topiclist li.header a:hover, ul.topiclist li.header a:active {
 ul.topiclist li.header dt, ul.topiclist li.header dd {
     font-size: 12px;
     line-height: 1.2em;
-}
-.old-ie li.header, .old-ie li.header a {
-    color: #fff !important;
 }
 
 ul.topiclist dl { 
@@ -144,12 +142,14 @@ li.row strong {
 }
 
 li.header dt, li.header dd {
-    color: #fff;
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(255, 255, 255, 0.8);
 	line-height: 1em;
 	border-left-width: 0;
 	margin: 0;
 	padding: 4px 0;
+}
+.old-ie li.header dt, .old-ie li.header dd {
+    color: #fff;
 }
 
 li.header dd {
@@ -329,7 +329,6 @@ div[class].topic-actions {
     height: 20px;
     text-decoration: none;
     text-align: center;
-    color: #cad0e0;
     color: rgba(255, 255, 255, 0.75);
     background: url({T_THEME_PATH}/images/buttons.png) top right no-repeat;
     text-shadow: rgba(0,0,0,0.1) 1px 1px 1px;
@@ -339,7 +338,7 @@ div[class].topic-actions {
     padding-top: 2px;
     height: 24px;
 }
-.old-ie .buttons div a { color: #fff !important; }
+.old-ie .buttons div a { color: #cad0e0; }
 
 
 .buttons div a, .buttons div a:hover, .buttons div a:active {
@@ -348,8 +347,10 @@ div[class].topic-actions {
     outline-style: none;
 }
 .buttons div a:hover, .buttons div a:active { 
-    color: #fff; 
     color: rgba(255, 255, 255, 0.9);
+}
+.old-ie .buttons div a:hover, .old-ie .buttons div a:active {
+    color: #fff; 
 }
 .buttons div a span {
     display: block;

@@ -418,7 +418,6 @@ table.table1 th {
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    color: #fff;
     color: rgba(255, 255, 255, 0.9);
     font-size: 12px;
     font-family: 'Droid Sans', Verdana;
@@ -426,8 +425,10 @@ table.table1 th {
     padding: 3px 4px;
 }
 table.table1 thead th a, table.table1 thead th a:visited {
-    color: #fff;
     color: rgba(255, 255, 255, 0.8);
+}
+.old-ie table.table1 th, .old-ie table.table1 thead th a, .old-ie table.table1 thead th a:visited {
+    color: #fff;
 }
 table.table1 thead th a:hover {
     color: #fff;

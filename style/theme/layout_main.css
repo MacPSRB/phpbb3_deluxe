@@ -46,17 +46,18 @@
 
 #header h1 {
     font-size: 24px;
-    color: #e4e7ef;
     color: rgba(255, 255, 255, 0.8);
+}
+.old-ie #header h1 {
+    color: #e4e7ef;
 }
 #header p {
     font-size: 16px;
-    color: #d0d5e0;
     color: rgba(255, 255, 255, 0.7);
 }
-
-#header .skiplink { display: none; }
-
+.old-ie #header p {
+    color: #d0d5e0;
+}
 
 #page-header {
     clear: both;
@@ -202,13 +203,13 @@
     padding: 8px;
     padding-top: 15px;
     font-size: 11px;
-    color: #a4abbd;
     color: rgba(255, 255, 255, 0.3);
     background: url({T_THEME_PATH}/images/hdr_br.gif) top right no-repeat, url({T_THEME_PATH}/images/hdr_bl.gif) 0 0 no-repeat, url({T_THEME_PATH}/images/hdr_b.gif) 0 0 repeat-x;
 }
 .old-ie #footer {
     background: url({T_THEME_PATH}/images/hdr_b.gif) 0 0 repeat-x;
     padding: 0;
+    color: #a4abbd;
 }
 .old-ie #footer .hdr1 {
     background: url({T_THEME_PATH}/images/hdr_bl.gif) 0 0 no-repeat;
@@ -222,7 +223,6 @@
     text-shadow: rgba(0, 0, 0, 0.1) 1px 2px 1px;
 }
 #footer .copyright a, #footer .copyright a:visited {
-    color: #a4abbd;
     color: rgba(255, 255, 255, 0.3);
     text-decoration: underline;
 }
@@ -232,7 +232,7 @@
     text-decoration: underline;
 }
 .old-ie #footer .copyright, .old-ie #footer .copyright a {
-    color: #a4abbd !important;
+    color: #a4abbd;
 }
 
 body.simple .copyright {
@@ -319,12 +319,14 @@ body.simple #page-body > h2.solo {
     height: 24px;
     font-size: 12px;
     line-height: 1em;
-    color: #dadee7;
     color: rgba(255, 255, 255, 0.7);
     text-shadow: rgba(0, 0, 0, 0.1) 1px 2px 1px;
     white-space: nowrap;
     max-width: 200px;
     overflow: hidden;
+}
+.old-ie .nav-links a span {
+    color: #dadee7;
 }
 .nav-links a.first span {
     padding-left: 6px;
@@ -340,8 +342,10 @@ body.simple #page-body > h2.solo {
     background-position: -20px -80px;
 }
 .nav-links a.first span, .nav-links a:hover span {
-    color: #e5dad4;
     color: rgba(255, 255, 255, 0.7);
+}
+.old-ie .nav-links a.first span, .old-ie .nav-links a:hover span {
+    color: #e5dad4;
 }
 
 .nav-extra {
@@ -363,13 +367,15 @@ body.simple #page-body > h2.solo {
 div.rules {
     margin: 6px 4px;
     padding: 6px;
-    background: #f4e6dd;
     background: rgba(206, 111, 54, 0.1);
     border: solid 1px #cba68f;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -moz-webkit-radius: 6px;
     text-shadow: none;
+}
+.old-ie div.rules {
+    background: #f4e6dd;
 }
 div.rules .inner > strong { 
     color: #3e5795; 
