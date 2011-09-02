@@ -325,7 +325,6 @@ fieldset.polls dd input {
 fieldset.polls dd div {
 	text-align: right;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #fff;
 	color: rgba(255, 255, 255, 0.8);
 	font-weight: normal;
 	padding: 0 3px;
@@ -338,6 +337,7 @@ fieldset.polls dd div {
 	-moz-webkit-radius: 6px;
 	border-top-color: #eee;
 }
+.old-ie fieldset.polls dd div { color: #fff; }
 
 fieldset.polls dd div.pollbar2 { background-position: 0 -25px; }
 fieldset.polls dd div.pollbar3 { background-position: 0 -50px; }
@@ -539,7 +539,6 @@ dl.thumbnail dt a:hover img {
     Reported / unapproved
 */
 p.rules {
-    background: #f4e6dd;
     background: rgba(206, 111, 54, 0.1);
     border: solid 1px #cba68f;
     border-radius: 6px;
@@ -549,6 +548,9 @@ p.rules {
 	margin: 5px 10px;
 	font-size: 12px;
 	line-height: 1.4em;
+}
+.old-ie p.rules {
+    background: #f4e6dd;
 }
 p.rules:hover {
     border-color: rgba(203, 41, 106, 0.5);

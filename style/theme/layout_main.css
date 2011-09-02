@@ -227,12 +227,14 @@
     text-decoration: underline;
 }
 #footer .copyright a:hover, #footer .copyright strong a {
-    color: #cdd1dd;
     color: rgba(255, 255, 255, 0.7);
     text-decoration: underline;
 }
 .old-ie #footer .copyright, .old-ie #footer .copyright a {
     color: #a4abbd;
+}
+.old-ie #footer .copyright a:hover, .old-ie #footer .copyright strong a {
+    color: #cdd1dd;
 }
 
 body.simple .copyright {
