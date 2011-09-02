@@ -10,7 +10,7 @@ fieldset {
 input[type="text"], input[type="password"], select, textarea {
 	font-weight: normal;
     background: #d8d8d8;
-    color: #444;
+    color: #000;
     outline-style: none;
     border: solid 1px #b8b8b8;
     border-radius: 6px;
@@ -32,14 +32,14 @@ input[type="text"], input[type="password"], select, textarea {
 }
 
 input[type="text"]:hover, input[type="password"]:hover, select:hover, textarea:hover {
-    color: #666;
+    color: #444;
     border-color: #c58057;
     background-color: #e8e8e8;
 }
 input[type="text"]:focus, input[type="password"]:focus, select:focus, textarea:focus {
     border-color: #5a79c3;
     background-color: #f0f0f0;
-    color: #444;
+    color: #000;
 }
 
 
@@ -62,7 +62,7 @@ option {
 }
 
 option.disabled-option {
-	color: #999;
+	color: #888;
 }
 
 textarea {
@@ -141,7 +141,7 @@ fieldset.fields2 dd {
 /* Form elements */
 dt label {
 	font-weight: bold;
-	color: #444;
+	color: #000;
 	font-size: 12px;
     font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
 	text-align: left;
@@ -349,7 +349,7 @@ input.button3 {
 a.button2, input.button2, input.button3 {
 	border: 1px solid #b8b8b8;
     background: #d8d8d8;
-	color: #666;
+	color: #444;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-size: 12px;
@@ -376,7 +376,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 
 input.disabled {
 	font-weight: normal;
-	color: #666666;
+	color: #666;
 }
 
 /* Topic and forum Search */

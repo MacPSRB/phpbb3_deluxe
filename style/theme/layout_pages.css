@@ -104,7 +104,7 @@ div.cp-panel {
     background: none;
     padding: 0;
 }
-p.linkmcp { color: #999; }
+p.linkmcp { color: #888; }
 
 #cp-main > h2, #cp-main > form > h2 {
     font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
@@ -199,7 +199,7 @@ div.panel dl.panel, div.panel dl.panel .hdr2-last {
 
 dl.mini dt {
 	font-weight: normal;
-	color: #444;
+	color: #000;
 	font-size: 14px;
 	line-height: 1.3em;
     font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
@@ -245,7 +245,7 @@ dl.mini dd {
 
 /* PM Message history */
 .current {
-	color: #888;
+	color: #000;
 }
 
 /* Defined rules list for PM options */
@@ -475,7 +475,7 @@ table.info tbody th {
 	padding: 3px;
 	text-align: right;
 	vertical-align: top;
-	color: #000000;
+	color: #000;
 	font-weight: normal;
 }
 

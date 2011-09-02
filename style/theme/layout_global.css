@@ -23,7 +23,7 @@ body {
     font-family: Verdana;
     line-height: 1.2em;
     font-size: 12px;
-    color: #444;
+    color: #000;
     text-shadow: rgba(255, 255, 255, 0.3) 1px 1px 1px;
 }
 html, body {
@@ -322,7 +322,7 @@ dl.details dt {
 	clear: left;
 	width: 30%;
 	text-align: right;
-	color: #666;
+	color: #444;
 	display: block;
 }
 
@@ -330,7 +330,7 @@ dl.details dd {
 	margin-left: 0;
 	padding-left: 5px;
 	margin-bottom: 5px;
-	color: #444;
+	color: #000;
 	float: left;
 	width: 65%;
 }

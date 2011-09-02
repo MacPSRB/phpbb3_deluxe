@@ -239,7 +239,7 @@
 
 body.simple .copyright {
     text-align: center;
-    color: #666;
+    color: #444;
     font-size: 11px;
 }
 
@@ -358,10 +358,10 @@ body.simple #page-body > h2.solo {
     top: -8px;
     font-size: 11px;
     margin: 8px;
-    color: #999;
+    color: #888;
 }
 .nav-extra-footer { top: 0; }
-.nav-extra .time { color: #666; }
+.nav-extra .time { color: #444; }
 
 /*
     Rules
