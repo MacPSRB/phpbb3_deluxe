@@ -447,6 +447,8 @@ dl.codebox code {
 	-webkit-border-radius: 8px;
 	clear: left;
 	max-width: 98%;
+	max-width: calc(100% - 14px);
+	max-width: -moz-calc(100% - 14px);
 }
 
 .attachbox dt {
