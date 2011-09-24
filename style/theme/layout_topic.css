@@ -227,14 +227,12 @@ dd .signature {
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-	/* Also see tweaks.css */
 	margin: 2px 0 10px 0;
 	min-height: 80px;
 	color: #444;
 	border-left: 1px solid #ccc;
 	width: 22%;
 	float: right;
-	display: inline;
 	word-wrap: break-word;
 }
 .pm .postprofile {
