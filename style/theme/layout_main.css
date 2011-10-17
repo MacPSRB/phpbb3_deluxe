@@ -171,7 +171,7 @@
     padding: 4px 3px;
     border-width: 0;
     -moz-border-radius: 0;
-    -moz-webkit-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
     background: transparent;
     height: 16px;
@@ -373,7 +373,7 @@ div.rules {
     border: solid 1px #cba68f;
     border-radius: 6px;
     -moz-border-radius: 6px;
-    -moz-webkit-radius: 6px;
+    -webkit-border-radius: 6px;
     text-shadow: none;
 }
 .old-ie div.rules {
