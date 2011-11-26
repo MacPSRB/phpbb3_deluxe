@@ -81,6 +81,10 @@ ul.topiclist dt {
 	margin-right: -465px;
 }
 
+ul.topiclist dt .wrap-content {
+	padding-right: 465px;
+}
+
 ul.topiclist dd {
 	display: block;
 	float: left;
