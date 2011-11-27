@@ -75,13 +75,18 @@ ul.topiclist li.row dl {
 ul.topiclist dt {
 	display: block;
 	float: left;
-	width: 100%;
+	width: 50%;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+ul.topiclist .widescreen-optimised dt {
+	width: 100%;
 	margin-right: -465px;
 }
 
-ul.topiclist dt .wrap-content {
+ul.topiclist .widescreen-optimised dt .wrap-content {
+	display: block;
 	padding-right: 465px;
 }
 
