@@ -26,6 +26,7 @@ div.forabg, div.forumbg {
 
 ul.topiclist {
     display: block;
+    clear: both;
     list-style-type: none;
     margin: 0;
 }
