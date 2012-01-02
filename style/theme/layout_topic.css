@@ -332,7 +332,7 @@ fieldset.polls dd div {
 	border: solid 0px transparent;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
-	-moz-webkit-radius: 6px;
+	-webkit-border-radius: 6px;
 	border-top-color: #eee;
 }
 .old-ie fieldset.polls dd div { color: #fff; }

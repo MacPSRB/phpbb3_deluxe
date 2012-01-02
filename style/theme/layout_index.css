@@ -26,6 +26,7 @@ div.forabg, div.forumbg {
 
 ul.topiclist {
     display: block;
+    clear: both;
     list-style-type: none;
     margin: 0;
 }
@@ -402,7 +403,7 @@ li.pagination {
 	padding: 0 2px;
 	margin: 0 2px;
 	font-weight: normal;
-    border-color: #aab4cd;
+    border: 1px solid #aab4cd;
     background-color: #3e5795;
     color: #fff;
 }

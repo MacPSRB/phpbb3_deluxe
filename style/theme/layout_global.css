@@ -222,7 +222,7 @@ a.right:hover {
 }
 
 a.top {
-	background: none no-repeat top left;
+	background: url("{IMG_ICON_BACK_TOP_SRC}") no-repeat top left;
 	text-decoration: none;
 	width: {IMG_ICON_BACK_TOP_WIDTH}px;
 	height: {IMG_ICON_BACK_TOP_HEIGHT}px;

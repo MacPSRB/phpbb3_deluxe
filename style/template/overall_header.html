@@ -64,7 +64,7 @@
 		{
 			eval(onload_functions[i]);
 		}
-	}
+	};
 
 	window.onunload = function()
 	{
@@ -72,7 +72,7 @@
 		{
 			eval(onunload_functions[i]);
 		}
-	}
+	};
 	
 	/*
 	    Style specific stuff
@@ -81,7 +81,7 @@
 
 // ]]>
 </script>
-<script type="text/javascript" src="{T_TEMPLATE_PATH}/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="{T_TEMPLATE_PATH}/jquery-1.7.1.min.js"></script>
 <!--[if lte IE 8]><script type="text/javascript"> var oldIE = true; </script><![endif]-->
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/style.js"></script>
 <script type="text/javascript" src="{T_TEMPLATE_PATH}/forum_fn.js"></script>
@@ -115,7 +115,7 @@
 		a: '{LA_BBCODE_A_HELP}',
 		s: '{LA_BBCODE_S_HELP}',
 		f: '{LA_BBCODE_F_HELP}',
-		e: '{LA_BBCODE_E_HELP}',
+		y: '{LA_BBCODE_Y_HELP}',
 		d: '{LA_BBCODE_D_HELP}'
 		<!-- BEGIN custom_tags -->
 			,cb_{custom_tags.BBCODE_ID}: '{custom_tags.A_BBCODE_HELPLINE}'
