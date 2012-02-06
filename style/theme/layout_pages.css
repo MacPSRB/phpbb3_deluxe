@@ -538,7 +538,7 @@ div.dropdown-tabs > ul {
     top: 24px;
     left: 0;
     z-index: 2;
-    background: #dfdfdf url({T_THEME_PATH}/images/innerbg.png);
+    background: #dfdfdf url({T_THEME_PATH}/images/innerbg.gif);
     padding: 0;
     border: solid 2px #57678f;
     border-radius: 6px;
